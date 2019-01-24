@@ -14,5 +14,7 @@ build_search_index = true
 # Hyde theme
 theme = "hyde"
 
+default_language = "en"
+
 [extra]
 # Put all your custom variables here
