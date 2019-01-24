@@ -16,5 +16,10 @@ theme = "hyde"
 
 default_language = "en"
 
+title = "Lavi"
+
 [extra]
 # Put all your custom variables here
+hyde_links = [
+	{name = "GitHub", url = "http://github.com/lavifb/"}
+]
