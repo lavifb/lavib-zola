@@ -10,4 +10,12 @@ template = "page.html"
 
 # Title
 
-Lavi
+Here is some rust code:
+```rust
+let example: String = "Here is some code";
+```
+
+Here is some Python code:
+```python
+example = "Here is some code"
+```

@@ -1,0 +1,15 @@
+{% extends "hyde/templates/index.html" %}
+
+{% block sidebar_about %}
+    <a href="{{ config.base_url }}"><h1>{{ config.title }}</h1></a>
+    {% if config.description %}
+    <p class="lead">{{config.description}}</p>
+    {% endif %}
+{% endblock sidebar_about %}
+
+{% block sidebar_nav %}
+{% for link in config.extra.hyde_links %}
+<li class="sidebar-nav-item"><a href="{{link.url}}">{{link.name}}</a></li>
+{% endfor %}
+<li class="sidebar-nav-item"><a href="https://www.linkedin.com/in/lavifb/">Linked-In</a></li>
+{% endblock sidebar_nav %}
