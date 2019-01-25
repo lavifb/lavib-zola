@@ -23,5 +23,5 @@ highlight_theme = "charcoal"
 [extra]
 # Put all your custom variables here
 hyde_links = [
-	{name = "GitHub", url = "http://github.com/lavifb/"}
+	# {name = "GitHub", url = "http://github.com/lavifb/"}
 ]

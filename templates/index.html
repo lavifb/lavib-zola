@@ -7,9 +7,22 @@
     {% endif %}
 {% endblock sidebar_about %}
 
+{% block extra_head %}
+<link rel="stylesheet" href="{{ get_url(path="styles.css", trailing_slash=false) }}">
+{% endblock extra_head %}
+
 {% block sidebar_nav %}
 {% for link in config.extra.hyde_links %}
 <li class="sidebar-nav-item"><a href="{{link.url}}">{{link.name}}</a></li>
 {% endfor %}
-<li class="sidebar-nav-item"><a href="https://www.linkedin.com/in/lavifb/">Linked-In</a></li>
+<li class="sidebar-nav-item">
+<ul class="icon-row">
+	<li>
+		<a href="https://www.linkedin.com/in/lavifb/"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
+	</li>
+	<li>
+		<a href="http://github.com/lavifb/"><img src="icons/github.svg" alt="GitHub"></a>
+	</li>
+</ul>
+</li>
 {% endblock sidebar_nav %}
