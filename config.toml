@@ -16,7 +16,9 @@ theme = "hyde"
 
 default_language = "en"
 
-title = "Lavi"
+title = "Lavi Blumberg"
+
+description = "Always trying to learn something new"
 
 highlight_theme = "charcoal"
 
